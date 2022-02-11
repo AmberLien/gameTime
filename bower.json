@@ -1,0 +1,23 @@
+{
+  "name": "gameTime",
+  "main": "index.js",
+  "homepage": "https://github.com/AmberLien/gameTime",
+  "authors": [
+    "AmberLien <amberlien03@gmail.com>"
+  ],
+  "description": "game library",
+  "keywords": [
+    "game"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
