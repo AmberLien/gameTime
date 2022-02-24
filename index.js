@@ -1,6 +1,13 @@
 (function(window, _) {
     window.gameTime = window.gameTime || {
-      numz: {},
+      numz: {
+        degreesToRadians(degrees){
+          return degrees * Math.PI / 180;
+        },
+        radiansToDegrees(radians){
+          return radians * 180 / Math.PI;
+        }
+      },
       phyz: {
                 /**
        * Returns an Object with basic properties utilized in a 
